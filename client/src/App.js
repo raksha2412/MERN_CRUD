@@ -1,14 +1,12 @@
 import React from 'react';
 import './App.css';
 import Employee from './employee/Employee.jsx';
-import Student from './student/Student.jsx';
 
 function App() {
   return (
     <div className="App">
-       {/* <Employee /> */}
-       { <Student /> }
-        <div className='footer'>CRUD Application @Copyright</div>
+       { <Employee /> }
+        <div className='footer'>CRUD Application &copy;Copyright</div>
     </div>
   );
 }
