@@ -5,7 +5,7 @@ import Employee from './employee/Employee.jsx';
 function App() {
   return (
     <div className="App">
-       { <Employee /> }
+        <Employee /> 
         <div className='footer'>CRUD Application &copy;Copyright</div>
     </div>
   );
